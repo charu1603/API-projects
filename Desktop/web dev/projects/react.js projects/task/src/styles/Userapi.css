@@ -1,0 +1,35 @@
+.card-container{
+    display: grid;
+   justify-content: center;
+   align-items: center;
+  
+
+}
+.card{
+    margin: 20px;
+   display: flex;
+ background-color: aqua;
+  text-decoration: none;
+}
+
+.cardimg{
+    height:max-content;
+
+}
+.cardcontent{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 40px;
+
+   color: black ;
+ text-decoration: none;
+
+
+}
+.cardcontent,h2,p{
+  
+  text-decoration:none;
+    margin-bottom: 10px;
+    
+}

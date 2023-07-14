@@ -1,0 +1,26 @@
+.circle-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+align-items: center;
+}
+
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+text-align: center;
+
+}
+.circle-container button{
+    border: none;
+margin: 10px;
+width: 160px;
+background-color: aqua;
+border-radius: 5px;
+padding: 5px;
+}

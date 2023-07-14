@@ -1,0 +1,21 @@
+nav{
+    background-color: aliceblue;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.233);
+padding: 1rem;
+max-width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+nav main{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav main >a {
+    color: black;
+    text-decoration: none;
+    margin: 1rem;
+}
